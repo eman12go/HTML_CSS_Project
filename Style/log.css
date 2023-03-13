@@ -1,0 +1,92 @@
+body{
+    /* background-color:rgb(19, 19, 19);
+     */
+     background-image: url('../Image/pexels-pixabay-260922.jpg');
+    
+}
+h1{
+    margin:30px auto;
+}
+div{
+    background-color:black;
+    width:60%;
+    /* height:450px; */
+    border-radius: 5px;
+    text-align:center;
+    margin: 20px auto;
+    padding:20px;
+    color: #fff;
+}
+input[type=submit]{
+    display: block;
+    padding: 10px;
+    width:150px;
+    height:40px;
+    margin: 50px auto;
+    border-radius: 5px;
+    color: #fff;
+    background-color:black;
+}
+
+input[type=submit]:hover{
+    cursor: pointer;
+}
+input,textarea,select{
+    width:60%;
+    height: 30px;
+    display: inline-block;
+    margin-right:50px;
+}
+p{
+    text-align:left;
+    display:inline-block;
+    width:160px;
+    margin-top: 30px;
+}
+.contact{
+    border-bottom: 1px solid white;
+}
+footer{
+    background-color: rgb(20, 20, 19);
+    
+     /* background-image:url('/Image/pexels-malidate-van-784633.jpg'); */
+    opacity:0.4;
+    color:#fff;
+    border:1px solid rgb(151, 155, 126);
+    border-radius:5px;
+    padding-bottom: 10px;
+    width:80%;
+    /* height: 405PX; */
+    /* margin:0 10px ; */
+    display:inline-block;
+    /* text-align:left; */
+}
+footer:hover {
+    
+    opacity: 1;
+    
+    }
+    ol{
+
+        text-align: right;  
+        list-style-type: none;
+        margin: 20px auto;
+    }
+    li{
+        display: inline-block;
+        margin: 10px;
+        padding:10px;
+        font-weight: bold;
+        /* background-color: rgb(36, 48, 62); */
+        border-radius: 2px;
+    }
+    a{
+        text-decoration: none;
+        color: inherit;
+    }
+    h4 a:hover,li:hover{
+        color:rgba(68, 142, 53, 0.46);
+        /* background-color:rgb(23, 22, 21); */
+        border-bottom: 1px solid white;
+        /* margin-top:3px; */
+    }
